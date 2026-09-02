@@ -1,0 +1,10 @@
+Thumbnail suggestions (editable)
+
+- Title text (large): DocShare
+- Subtitle (smaller): Lightweight Collaborative Editor — Create • Edit • Share
+- Colors: background #0f172a (dark navy), accent #06b6d4 (cyan), text white
+- Imagery: a stylized document icon on the left, a simple user avatar pair on the right (alice/bob), a small Quill logo or "Quill" text to hint editor
+- Font: bold sans-serif (e.g., Inter or Montserrat)
+- Size: 1280x720, safe title area centered
+
+Export recommendation: PNG 1280x720, high quality, add drop shadow to title for legibility.

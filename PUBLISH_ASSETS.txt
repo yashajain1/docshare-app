@@ -1,0 +1,9 @@
+Suggested filenames to include in your published folder:
+- DocShare_walkthrough.mp4 (1080p)
+- slides.pdf or SLIDES.md (speaker notes)
+- walkthrough.srt
+- thumbnail.png
+- social_clip_60s.mp4
+- social_clip_30s.mp4
+
+If you want, I can convert SLIDES.md into a simple HTML slide deck you can open locally and present from the browser. Tell me which format you prefer.
