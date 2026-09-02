@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: docshare-backend
+    env: python
+    region: oregon
+    branch: feature/fastapi-react
+    buildCommand: "pip install -r server/requirements.txt"
+    startCommand: "uvicorn server.src.main:app --host 0.0.0.0 --port 8000"
+    plan: free
+    disk: 1024
+    envVars: []
+
+staticSites:
+  - name: docshare-frontend
+    repo: https://github.com/yashajain1/docshare-app
+    branch: feature/fastapi-react
+    buildCommand: "cd client && npm install && npm run build"
+    publishPath: client/dist
+    envVars: []
