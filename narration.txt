@@ -1,0 +1,19 @@
+Hi, I’m yashajain1. This is DocShare, a lightweight collaborative editor built to demonstrate document creation, editing, file upload, sharing, and persistence.
+
+DocShare is a small full‑stack app built with Node, Express and SQLite for persistence, and Quill for rich text editing. The goal was to ship a focused, usable slice in a short timebox: create, edit, save, upload, and share documents.
+
+Tech highlights: Node/Express backend, SQLite, multer for uploads, Quill on the frontend. For the demo I seeded two users — alice and bob — so I can show sharing without full auth.
+
+First, I’ll log in as alice. I’ll create a new document titled 'Meeting Notes'. The editor supports basic rich text — bold, italic, underline, headings, and lists. I’ll add some content and format a heading and a bullet list.
+
+I’ll save the doc — saving persists the HTML content to SQLite. Now I’ll rename the doc to 'Team Meeting Notes' and show that the updated title appears in the document list.
+
+Next I’ll import a .md file using the Upload control. Uploads accept .txt and .md. The server reads the file and creates a new document with the file contents.
+
+Now I’ll share the Meeting Notes with bob. Only the document owner (alice) can grant access. After sharing, I’ll switch to bob, log in as bob, and open the shared document to verify access and editing.
+
+All docs and share relationships are stored in SQLite so data persists across restarts. The backend uses small SQL tables to keep things simple and observable during a short timebox.
+
+To keep scope realistic I used mocked auth with seeded users and a simple shares table. With another few hours I’d add password auth, deployment, more tests, and version history.
+
+I used AI to scaffold boilerplate and documentation, but I reviewed and simplified the output. Repo and video link are in the description — thanks, and please try it locally.
