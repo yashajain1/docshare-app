@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+sqlmodel
+sqlalchemy
+python-multipart
+aiofiles
+bleach
+pytest
+httpx
+pytest-asyncio
